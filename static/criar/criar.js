@@ -44,7 +44,7 @@ send.addEventListener("click",()=>{
         pericias+=(new_char+";")
     }
     let char={
-        dono:JSON.parse(localStorage.getItem("logado")),
+        dono:JSON.parse(localStorage.getItem("logado"))[0],
         nome:inputs[0].value,
         recompensa:0,
         status:status.slice(0,-1),
