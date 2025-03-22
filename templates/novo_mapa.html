@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='novo_mapa/novo_mapa.css')}}">
+    <title>One Piece RPG - Criador de mapa</title>
+</head>
+<body>
+    <div class="chars">
+        <label>ID do personagem</label>
+        <input type="text" class="char_id">
+        <label>Posição do personagem</label>
+        <input type="text" class="position_char">
+        <label>Onda em que aparece</label>
+        <input type="text" class="wave">
+        <div class="save_char">Salvar Char</div>
+    </div>
+    <div class="fundo">
+        <label>Imagem de fundo</label>
+        <input type="file" class="back">
+        <div class="save">Salvar mapa</div>
+    </div>
+    <script src="{{url_for('static',filename='novo_mapa/novo_mapa.js')}}"></script>
+</body>
+</html>

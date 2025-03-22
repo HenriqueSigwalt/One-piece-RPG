@@ -1,0 +1,74 @@
+body{
+    background:#efc490;
+}
+
+.unlodged{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+    color: aliceblue;
+}
+
+.logged{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+    color: aliceblue;
+    display: none;
+}
+
+.log{
+    margin: 1vw;
+    background-color: darkblue;
+    font-size: 2vw;
+    width: 10vw;
+    border-radius: 0.5vw;
+}
+
+.sing{
+    margin: 1vw;
+    background-color: darkblue;
+    font-size: 2vw;
+    width: 10vw;
+    border-radius: 0.5vw;
+}
+
+.chars{
+    margin: 1vw;
+    background-color: darkblue;
+    font-size: 2vw;
+    width: 10vw;
+    color: aliceblue;
+    border-radius: 0.5vw;
+}
+
+.enter{
+    margin: 1vw;
+    background-color: darkblue;
+    font-size: 2vw;
+    width: 10vw;
+    border-radius: 0.5vw;
+}
+
+.loggout{
+    margin: 1vw;
+    background-color: darkblue;
+    font-size: 2vw;
+    width: 10vw;
+    border-radius: 0.5vw;
+}
+
+.mestre{
+    margin: 1vw;
+    background-color: darkblue;
+    font-size: 2vw;
+    width: 10vw;
+    border-radius: 0.5vw;
+    display: none;
+}

@@ -1,0 +1,75 @@
+body{
+    background:#efc490;
+    display: flex;
+    flex-direction: row;
+}
+
+.chars{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.enemies{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.fundo{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin: 1vw;
+}
+
+input{
+    width: 15vw;
+    margin: 1vw;
+    font-size: 2vw;
+}
+
+.save_char{
+    width: 15vw;
+    margin: 1vw;
+    color: aliceblue;
+    background-color: darkblue;
+    border-radius: 0.5vw;
+    height: 3vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.save_enimie{
+    width: 15vw;
+    margin: 1vw;
+    color: aliceblue;
+    background-color: darkblue;
+    border-radius: 0.5vw;
+    height: 3vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.save{
+    width: 15vw;
+    margin: 1vw;
+    color: aliceblue;
+    background-color: darkblue;
+    border-radius: 0.5vw;
+    height: 3vw;
+    text-align: center;
+    font-size: 2vw;
+}

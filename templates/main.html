@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece RPG - Inicio</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='main/main.css')}}">
+</head>
+<body>
+    <div class="unlodged">
+        <div class="log">Entrar</div>
+        <div class="sing">Cadastrar</div>
+    </div>
+    <div class="logged">
+        <select name="chars" class="chars">
+            <option value="0">Novo</option>
+        </select>
+        <div class="enter">Abir ficha</div>
+        <div class="mestre">Novo mapa</div>
+        <div class="loggout">Sair</div>
+    </div>
+    <script src="{{url_for('static',filename='main/main.js')}}"></script>
+</body>
+</html>

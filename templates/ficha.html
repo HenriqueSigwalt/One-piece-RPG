@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece RPG - Ficha</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='ficha/ficha.css')}}">
+</head>
+<body>
+    <div class="poster">
+        <p class="wanted">Procurado</p>
+        <img src="{{url_for('static',filename='ficha/images/char.png')}}" class="char">
+        <p class="dead_or_alive">Morto ou vivo</p>
+        <p class="name">Macaco D. Luffy</p>
+        <p class="bounty">R$3000000000</p>
+    </div>
+    <div class="scores">
+        <div class="score">
+            <div class="mod"></div>
+            <div class="status">Força</div>
+            <div class="value"></div>
+        </div>
+        <div class="score">
+            <div class="mod"></div>
+            <div class="status">Destreza</div>
+            <div class="value"></div>
+        </div>
+        <div class="score">
+            <div class="mod"></div>
+            <div class="status">Constituição</div>
+            <div class="value"></div>
+        </div>
+        <div class="score">
+            <div class="mod"></div>
+            <div class="status">Inteligencia</div>
+            <div class="value"></div>
+        </div>
+        <div class="score">
+            <div class="mod"></div>
+            <div class="status">Sabedoria</div>
+            <div class="value"></div>
+        </div>
+        <div class="score">
+            <div class="mod"></div>
+            <div class="status">Carisma</div>
+            <div class="value"></div>
+        </div>
+        <div class="score">
+            <div class="mod"></div>
+            <div class="status">Vontade</div>
+            <div class="value"></div>
+        </div>
+    </div>
+    <div class="stuff">
+        <div class="stat">
+            <p class="stat_name">HP máximo</p>
+            <div class="hp_max"></div>
+        </div>
+        <div class="stat">
+            <p class="stat_name">HP atual</p>
+            <input type="text" class="hp_cur">
+        </div>
+        <div class="stat">
+            <p class="stat_name">AC</p>
+            <div class="ac"></div>
+        </div>
+        <div class="stat">
+            <p class="stat_name">Percepção</p>
+            <div class="perception"></div>
+        </div>
+        <div class="stat">
+            <p class="stat_name">Infamia</p>
+            <div class="infamy"></div>
+        </div>
+    </div>
+    <div class="resistence">
+        <div class="stat">
+            <p class="stat_name">Fortitude</p>
+            <div class="fortitude"></div>
+        </div>
+        <div class="stat">
+            <p class="stat_name">Reflexo</p>
+            <div class="reflex"></div>
+        </div>
+        <div class="stat">
+            <p class="stat_name">Vontade</p>
+            <div class="will"></div>
+        </div>
+    </div>
+    <div class="haki">
+        <div class="stat">
+            <p class="stat_name">Armamento</p>
+            <div class="armament"></div>
+        </div>
+        <div class="stat">
+            <p class="stat_name">Observação</p>
+            <div class="observation"></div>
+        </div>
+        <div class="stat">
+            <p class="stat_name">Rei</p>
+            <div class="emperor"></div>
+        </div>
+        <div class="stat">
+            <p class="stat_name">Cargas</p>
+            <div class="charge"></div>
+        </div>
+        <div class="stat">
+            <p class="stat_name">Cargas atuais</p>
+            <input type="text" class="charge_cur">
+        </div>
+    </div>
+    <div class="skils1">
+        <div class="skill">
+            <div class="status">Acrobacia</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Atletismo</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Furtividade</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Furto</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Construção</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Ocultismo</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Navegação</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Sociedade</div>
+            <div class="value"></div>
+        </div>
+    </div>
+    <div class="skils2">
+        <div class="skill">
+            <div class="status">Medicina</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Natureza</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Religião</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Sobrevivência</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Diplomacia</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Intimidação</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Enganação</div>
+            <div class="value"></div>
+        </div>
+        <div class="skill">
+            <div class="status">Performance</div>
+            <div class="value"></div>
+        </div>
+    </div>
+    <div class="atacks">
+    </div>
+    <div class="result"></div>
+    <div class="botoes">
+        <div class="botao">Editar</div>
+        <div class="botao">Mapa</div>
+        <div class="botao">Menu</div>
+        <div class="botao">Logout</div>
+    </div>
+    <script src="{{url_for('static',filename='ficha/ficha.js')}}"></script>
+</body>
+</html>

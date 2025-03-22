@@ -1,0 +1,35 @@
+body{
+    background:#efc490;
+    margin: 0;
+    padding: 0;
+}
+
+.map{
+    background-image: url("Captura de tela 2025-03-10 041621.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw; 
+    grid-template-columns: 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw;
+}
+
+.item{
+    background: none;
+    border: 0.1vw solid black;
+    z-index: 0;
+}
+
+.char{
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    position: absolute;
+    z-index: 1;
+    width: 3vw;
+    height: 3vw;
+}
+
+audio{
+    display: none;
+}
